@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookManagement.API", "BookManagement.API\BookManagement.API.csproj", "{8CB0A557-58F8-4EA0-B8F9-FF0784788FCF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7CA09155-0889-49D5-A3BE-B96E2948C4F6}"
+	ProjectSection(SolutionItems) = preProject
+		compose.yaml = compose.yaml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookManagement.DataAccess", "BookManagement.DataAccess\BookManagement.DataAccess.csproj", "{A22A9038-E5BF-4D30-8431-4DD0D0325A95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookManagement.Models", "BookManagement.Models\BookManagement.Models.csproj", "{57CE25D1-D1DA-41BA-B85F-D7C0A9963E04}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8CB0A557-58F8-4EA0-B8F9-FF0784788FCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CB0A557-58F8-4EA0-B8F9-FF0784788FCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CB0A557-58F8-4EA0-B8F9-FF0784788FCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CB0A557-58F8-4EA0-B8F9-FF0784788FCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A22A9038-E5BF-4D30-8431-4DD0D0325A95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A22A9038-E5BF-4D30-8431-4DD0D0325A95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A22A9038-E5BF-4D30-8431-4DD0D0325A95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A22A9038-E5BF-4D30-8431-4DD0D0325A95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57CE25D1-D1DA-41BA-B85F-D7C0A9963E04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57CE25D1-D1DA-41BA-B85F-D7C0A9963E04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57CE25D1-D1DA-41BA-B85F-D7C0A9963E04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57CE25D1-D1DA-41BA-B85F-D7C0A9963E04}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
