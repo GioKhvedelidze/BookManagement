@@ -17,9 +17,23 @@
       - ./data-mssql:/var/opt/mssql/data
     networks:
       - bookmanagement_network
+  sqlserver_identity:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: identity_sqlserver
+    environment:
+      SA_PASSWORD: "IdentitySimplePassword123!"
+      ACCEPT_EULA: "Y"
+      MSSQL_PID: "Express"
+    ports:
+      - "1434:1433"
+    volumes:
+      - ./data-mssql-identity:/var/opt/mssql/data
+    networks:
+      - bookmanagement_network
 
 volumes:
   sqlserver_data:
+  sqlserver_identity_data:
 
 networks:
   bookmanagement_network:

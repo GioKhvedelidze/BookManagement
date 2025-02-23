@@ -1,12 +1,14 @@
 ﻿using System.Text.Json;
 using BookManagement.DataAccess.Repositories;
 using BookManagement.Models.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BookManagement.API.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
+[Authorize]
 public class BooksController : ControllerBase
 {
     private readonly IBookRepository _bookRepo;
